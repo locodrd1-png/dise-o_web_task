@@ -14,7 +14,7 @@ import './styles/App.css';
 function App() {
   return (
     <CartProvider>
-      <Router>
+      <Router basename="/dise-o_web_task">
         <div className="app">
           <Header />
           <Routes>
