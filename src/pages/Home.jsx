@@ -105,7 +105,7 @@ const Home = () => {
       {/* Why Choose Us */}
       <section className="benefits-section">
         <h2 className="section-title centered">¿Por qué elegirnos?</h2>
-        
+
         <div className="benefits-grid">
           {benefits.map((benefit, index) => (
             <div key={index} className="benefit-card">
@@ -116,6 +116,22 @@ const Home = () => {
               <p className="benefit-description">{benefit.description}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Video Section */}
+      <section className="video-section">
+        <h2 className="section-title centered">Video creacion de la pagina 🎬</h2>
+        <p className="section-subtitle" style={{ textAlign: 'center' }}>
+          Conose como se creo esta pagina y el proceso de desarrollo, desde el desarrollo hasta la publicacion en GitHub Pages.
+        </p>
+        <div className="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/JiH_mCxilOk"
+            title="FrutiFresh - Nuestra Historia"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
         </div>
       </section>
     </main>

@@ -8,7 +8,7 @@ FrutiFresh es una tienda online de frutas frescas que permite a los usuarios exp
 
 ## ✨ Características
 
-- ✅ **Página de Inicio** - Hero banner, categorías, productos destacados y beneficios
+- ✅ **Página de Inicio** - Hero banner, categorías, productos destacados, beneficios y video explicativo
 - ✅ **Catálogo Completo** - 9 productos con sistema de filtros
 - ✅ **Página de Contacto** - Formulario funcional con información de contacto
 - ✅ **Navegación con React Router** - Navegación SPA sin recargas
@@ -93,6 +93,7 @@ frutifresh-app/
 - 4 categorías de frutas
 - 3 productos destacados
 - 4 beneficios de la tienda
+- Video explicativo del proyecto
 - Footer completo
 
 ### Catálogo (`/catalogo`)
@@ -105,113 +106,11 @@ frutifresh-app/
 - Información de contacto (dirección, teléfono, email, horarios)
 - Botones de redes sociales
 
-## 🎨 Paleta de Colores
 
-```css
---verde-principal: #4CAF50   /* Botones principales, logo */
---verde-claro: #8BC34A       /* Acentos, fondos suaves */
---naranja: #FF9800           /* Badges, carrito */
---amarillo: #FFC107          /* Categorías especiales */
---azul: #2196F3              /* Enlaces, información */
---gris-fondo: #F5F5F5        /* Fondos de secciones */
---gris-medio: #9E9E9E        /* Textos secundarios */
---negro-texto: #212121       /* Textos principales */
---blanco: #FFFFFF            /* Fondos, textos en oscuro */
-```
+## 🎬 Video Explicativo
 
-## 📝 Tipografía
+El video explicativo del proyecto está embebido directamente en la página de inicio y también disponible en YouTube:
 
-- **Fuente:** Inter (Google Fonts)
-- **Pesos:** 400 (Regular), 600 (Semi Bold), 700 (Bold)
-- **Tamaños:** 13px - 52px según jerarquía
+[![Video Explicativo - FrutiFresh](https://img.youtube.com/vi/JiH_mCxilOk/maxresdefault.jpg)](https://www.youtube.com/watch?v=JiH_mCxilOk)
 
-## 🔧 Personalización
-
-### Modificar Productos
-
-Edita el array `allProducts` en `/src/pages/Catalogo.jsx`:
-
-```jsx
-const allProducts = [
-  { emoji: '🥭', name: 'Mango Tommy', price: '3.500', discount: 15 },
-  // Agrega más productos aquí
-];
-```
-
-### Modificar Categorías
-
-Edita el array `categories` en `/src/pages/Home.jsx`:
-
-```jsx
-const categories = [
-  { emoji: '🥭', name: 'Frutas Tropicales', color: '#FF9800' },
-  // Agrega más categorías aquí
-];
-```
-
-### Modificar Colores
-
-Edita las variables CSS en `/src/styles/App.css`:
-
-```css
-:root {
-  --verde-principal: #4CAF50;
-  /* Modifica los colores aquí */
-}
-```
-
-## 🚀 Próximas Mejoras Sugeridas
-
-### Funcionalidades
-- [ ] Sistema de carrito de compras completo
-- [ ] Autenticación de usuarios
-- [ ] Integración con pasarela de pago
-- [ ] Sistema de búsqueda de productos
-- [ ] Filtros avanzados en catálogo
-- [ ] Sistema de reviews y calificaciones
-- [ ] Gestión de pedidos
-
-### Técnicas
-- [ ] Context API para estado global
-- [ ] Conexión con backend/API
-- [ ] Lazy loading de imágenes
-- [ ] Optimización SEO
-- [ ] PWA (Progressive Web App)
-- [ ] Tests unitarios y de integración
-- [ ] Internacionalización (i18n)
-
-## 📱 Responsive Design
-
-El diseño se adapta automáticamente a:
-- **Desktop:** > 1200px - Grid de 3-4 columnas
-- **Tablet:** 768px - 1200px - Grid de 2 columnas
-- **Mobile:** < 768px - Grid de 1 columna
-
-## 🤝 Contribuir
-
-Si deseas contribuir al proyecto:
-
-1. Fork el repositorio
-2. Crea una rama para tu feature (`git checkout -b feature/NuevaCaracteristica`)
-3. Commit tus cambios (`git commit -m 'Agregar nueva característica'`)
-4. Push a la rama (`git push origin feature/NuevaCaracteristica`)
-5. Abre un Pull Request
-
-## 📄 Licencia
-
-Este proyecto fue creado con fines educativos basado en el wireframe de FrutiFresh.
-
-## 👨‍💻 Autor
-
-Proyecto desarrollado como parte de un ejercicio de diseño web y desarrollo React.
-
-## 📧 Contacto
-
-Para consultas sobre el proyecto, puedes contactar a través de las issues del repositorio.
-
----
-
-**Creado con:** React + React Router + CSS  
-**Basado en:** Wireframe FrutiFresh de Figma  
-**Fecha:** Mayo 2026  
-**Versión:** 1.0.0
+[Ver en YouTube →](https://www.youtube.com/watch?v=JiH_mCxilOk)
