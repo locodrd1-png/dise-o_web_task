@@ -46,10 +46,14 @@ npm run build
 # Ejecutar tests
 npm test
 
-# Analizar bundle
+# realizar build
 npm run build
-npx source-map-explorer 'build/static/js/*.js'
+
+# realizar despliegue
+npm run deploy
+
 ```
+
 
 ## 📁 Estructura del Proyecto
 
