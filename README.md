@@ -43,12 +43,6 @@ La aplicación se abrirá automáticamente en `http://localhost:3000`
 # Construir para producción
 npm run build
 
-# Ejecutar tests
-npm test
-
-# realizar build
-npm run build
-
 # realizar despliegue
 npm run deploy
 
